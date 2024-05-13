@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://www.site-externe.com">
-  <title>Redirection vers Site Externe</title>
+  <title>Titre attrayant</title>
   
   <!-- Métadonnées Open Graph -->
   <meta property="og:title" content="Titre attrayant">
   <meta property="og:description" content="Description attrayante">
   <meta property="og:image" content="https://www.monsite.com/image.jpg">
   <meta property="og:url" content="https://votreUtilisateur.github.io/mon-site/redirect.html">
+  <meta property="og:redirects:url" content="https://www.site-externe.com">
 </head>
 <body>
   <p>Si vous n'êtes pas redirigé automatiquement, <a href="https://www.site-externe.com">cliquez ici</a>.</p>
+  <script>window.location.replace("https://www.site-externe.com")</script>
 </body>
 </html>
